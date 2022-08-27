@@ -1,0 +1,23 @@
+# Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  defaults:
+    remote: zephyrproject-rtos
+
+  self:
+    path: example-application
+
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+    - name: zephyrproject-rtos-your-remote-name
+      url-base: https://github.com/your-github-account
+
+  projects:
+    - name: zephyr
+      revision: main
+      import:
+        name-allowlist:
+          - cmsis
+          - hal_rpi_pico
