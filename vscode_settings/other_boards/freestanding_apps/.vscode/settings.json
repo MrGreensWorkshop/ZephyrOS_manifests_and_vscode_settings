@@ -4,13 +4,24 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 {
+    // - Settings below are only needed for freestanding applications.
+    // - For workspace applications, you should comment out these lines.
+    // - Please comment out ZEPHYR_EXTRA_MODULES if your application
+    // does not have Zephyr modules. (Zephyr modules are used in the example-application.)
+    // * Tested on MacOS, Linux and Win10.
     "terminal.integrated.env.osx": {
-        // these 3 setting only needed for freestanding applications,
-        // in workspace applications you should comment out these 3 lines.
         "PATH": "$HOME/zephyrproject/zephyr/scripts",
         "ZEPHYR_BASE": "${env:HOME}/zephyrproject/zephyr",
-        "ZEPHYR_EXTRA_MODULES": "${workspaceFolder}"
+        "ZEPHYR_EXTRA_MODULES": "${workspaceFolder}",
     },
-    // "terminal.integrated.env.linux": {},
-    // "terminal.integrated.env.windows": {}
+    "terminal.integrated.env.linux": {
+        "PATH": "$HOME/zephyrproject/zephyr/scripts:${env:PATH}",
+        "ZEPHYR_BASE": "${env:HOME}/zephyrproject/zephyr",
+        "ZEPHYR_EXTRA_MODULES": "${workspaceFolder}",
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:USERPROFILE}\\zephyrproject\\zephyr\\scripts;${env:PATH}",
+        "ZEPHYR_BASE": "${env:USERPROFILE}\\zephyrproject\\zephyr",
+        "ZEPHYR_EXTRA_MODULES": "${workspaceFolder}",
+    },
 }
