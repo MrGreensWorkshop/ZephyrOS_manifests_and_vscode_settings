@@ -66,7 +66,3 @@ Creating projects like this takes a great amount of time. Much appreciated if yo
 As it says in the [Apache License 2.0](https://github.com/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings/blob/main/LICENSE.txt), you can use my code anywhere as long as you include the license file and copyright notice. Also, state if you make any changes.
 
 `Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com`
-
-Please add link to my page so I can get credit for my work.
-
-Thank you!
