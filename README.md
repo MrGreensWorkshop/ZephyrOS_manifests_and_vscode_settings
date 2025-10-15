@@ -1,8 +1,8 @@
 ### How to create Zephyr RTOS Workspace with device drivers for Raspberry Pi Pico(RP2040) and other boards like STM32 Nucleo and VS Code Setup.
 
 [<img src="https://img.shields.io/github/issues/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings" alt="GitHub issues" data-no-image-viewer>](https://github.com/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings/issues)
-[<img src="https://img.shields.io/github/forks/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings" alt="GitHub forks" data-no-image-viewer>](https://github.com/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings/blob/main/README.md#readme)
-[<img src="https://img.shields.io/github/stars/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings" alt="GitHub stars" data-no-image-viewer>](https://github.com/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings/blob/main/README.md#readme)
+[<img src="https://img.shields.io/github/forks/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings?style=flat" alt="GitHub forks" data-no-image-viewer>](https://github.com/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings/blob/main/README.md#readme)
+[<img src="https://img.shields.io/github/stars/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings?style=flat" alt="GitHub stars" data-no-image-viewer>](https://github.com/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings/blob/main/README.md#readme)
 [<img src="https://img.shields.io/github/license/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings" alt="GitHub license" data-no-image-viewer>](https://github.com/MrGreensWorkshop/ZephyrOS_manifests_and_vscode_settings/blob/main/LICENSE.txt)
 [<img src="https://shields.io/badge/Github%20Sponsors-Support%20me-blue?logo=GitHub+Sponsors" alt="Support me on GitHub Sponsors" data-no-image-viewer>](https://github.com/sponsors/MrGreensWorkshop "Support me on GitHub Sponsors")
 [<img src="https://shields.io/badge/Patreon-Support%20me-blue?logo=Patreon" alt="Support me on Patreon" data-no-image-viewer>](https://patreon.com/MrGreensWorkshop "Support me on Patreon")
